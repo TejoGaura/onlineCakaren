@@ -1,0 +1,21 @@
+.home {
+	.logo {
+		height: 45vmin;
+		pointer-events: none;
+	}
+
+	// @media (prefers-reduced-motion: no-preference) {
+	// 	.logo {
+	// 		animation: logo-spin 1 3s linear;
+	// 	}
+	// }
+
+	// @keyframes logo-spin {
+	// 	from {
+	// 		transform: scale(4);
+	// 	}
+	// 	to {
+	// 		transform: scale(1);
+	// 	}
+	// }
+}
