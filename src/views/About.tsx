@@ -7,7 +7,7 @@ const About = () => {
     return (
         <article className="about">
             <h1>O nás</h1>
-            <h2>dosť bolo čakania v ambulanciách..</h2>
+            <h2>dosť bolo čakania v čakárňách..</h2>
             <p>
 				It's been one week since you looked at me Cocked your head to
 				the side and said, "I'm angry" Five days since you laughed at

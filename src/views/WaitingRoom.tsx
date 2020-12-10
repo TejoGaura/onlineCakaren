@@ -15,17 +15,12 @@ function WaitingRoom() {
 
     //callback
     const handleSearch = (query: string) => {
-        axios
-            .get(
-                `https://itunes.apple.com/search
-                ?term=${encodeURI(query)}
-                &entity=musicTrack
-                &limit=5`
+        axios.get(
+                `https://itunes.apple.com/search?term=${encodeURI(query)}&entity=musicTrack&limit=5`
             )
             .then(response => {
-                console.log(response)
+                setTerms(response.data.results)
             })
-        //setTerms([])
     }
 
     //template
