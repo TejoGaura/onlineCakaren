@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullcalendar/core": "^5.4.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -11,9 +12,12 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "axios": "^0.21.0",
+    "fullcalendar": "^5.4.0",
     "lodash-es": "^4.17.15",
+    "moment": "^2.29.1",
     "node-sass": "4.14.1",
     "react": "^17.0.1",
+    "react-calendar": "^3.2.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
@@ -46,6 +50,7 @@
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.3",
+    "@types/react-calendar": "^3.1.2",
     "@types/react-router-dom": "^5.1.6"
   }
 }

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Term } from '../../types'
+import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css';
 
 //style
 import './TermsList.scss'
@@ -15,11 +17,15 @@ const TermsList = (props: Props) => {
 
     //template
     return (
-        <ul className="terms-list">
-            {terms.map(term => (
-            <li key={term.id}>{JSON.stringify(term)}</li>
-            ))}
-        </ul>
+        <div>
+            <ul className="terms-list">
+                {terms.map(term => (
+                <li key={term.id}>{JSON.stringify(term)}</li>
+                ))}
+            </ul>
+
+            <Calendar />
+        </div>
     )
 }
 
