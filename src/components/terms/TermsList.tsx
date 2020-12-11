@@ -24,7 +24,7 @@ const TermsList = (props: Props) => {
                 ))}
             </ul>
 
-            <Calendar />
+            <Calendar className="calendar" />
         </div>
     )
 }

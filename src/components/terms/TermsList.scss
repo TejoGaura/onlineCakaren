@@ -14,3 +14,28 @@
 		}
 	}
 }
+
+.calendar {
+	font-family: 'Nunito Sans', helvetica, arial, sans-serif;
+	margin: auto;
+	border: none;
+	border-radius: 0.75em; // 12/16
+	background: white;
+	box-sizing: border-box;
+	// overflow: hidden;
+
+	button {
+		border-radius: 1em;
+		width: auto;
+	}
+
+	.react-calendar__tile--active {
+		box-shadow: 1px 1px 20px 1px black;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.calendar {
+		font-size: 1.15em;
+	}
+}
