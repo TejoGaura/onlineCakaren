@@ -28,8 +28,8 @@ function WaitingRoom() {
         <article className="terms">
             <h1>Čakáreň</h1>
             <p>Vyberte si termín prosím!</p>
-            <TermsSearchForm onSearch={handleSearch} />
             <TermsList terms={terms} />
+            {/* <TermsSearchForm onSearch={handleSearch} /> */}
         </article>
     )
 }
